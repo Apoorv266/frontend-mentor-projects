@@ -1,0 +1,54 @@
+.themeslider {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 320px;
+  margin-top: 7px;
+}
+
+.mainslider{
+  display: flex;
+  justify-content: space-between;
+}
+
+.nums p{
+  font-weight: 900;
+}
+
+.theme-slider h4, .themeslider h1{
+  margin-right: 20px;
+}
+
+.slider {
+  -webkit-appearance: none;
+  width: 62px;
+  height: 20px;
+  border-radius: 10px;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: red;
+  cursor: pointer;
+  text-align: center;
+  
+}
+
+.nums{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: -10px;
+}
+
+
+
+@media screen and (max-width: 375px) {
+ .mainslider{
+  width: 300px;
+ }
+}

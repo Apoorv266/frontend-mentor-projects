@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan&display=swap');
+*{
+  font-family: 'League Spartan', sans-serif;
+}
+
+.calc-body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:  hsl(222, 26%, 31%);
+    height: 100vh;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+@media screen and (max-width: 768px) {
+  .calc-body {
+    height:  130vh;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .calc-body {
+    height:  100vh;
+    width: 100vw;
+    margin-top: -50px;
+    align-items: center;
+    justify-content: center;
+    /* overflow: hidden; */
+  }
+}
+
+
+@media screen and (max-width: 320px) {
+  .calc-body {
+    height:  130vh;
+    width: 130vw;
+   
+  }
+}
+
